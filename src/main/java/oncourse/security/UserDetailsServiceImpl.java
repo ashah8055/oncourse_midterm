@@ -21,6 +21,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         throws UsernameNotFoundException, DataAccessException
     {
         User user = userDao.getUserByUsername( username );
+       
         if( user == null )
             throw new UsernameNotFoundException( username + " is not found." );
 

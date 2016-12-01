@@ -14,5 +14,6 @@
  <tr><td colspan="2"><input type="submit" name="login" value="Login" /></td></tr>
 </table>
 </form>
+<a href="signup.html">SignUp</a>
 </body>
 </html>

@@ -9,11 +9,13 @@
 <h2><a href="../index.html">OnCourse</a></h2>
 <h3>Programs</h3>
 <table border="1">
-<tr><th>Department</th><th>Name</th></tr>
+<tr><th>Department</th><th>Name</th><th>Description</th></tr>
 <c:forEach items="${programs}" var="program">
 <tr>
   <td>${program.department.name}</td>
   <td>${program.name}</td>
+   <td>${program.description}	</td>
+  
   <td><a href="ProgramView.html?id=${program.id}">View</a>
 	
 </tr>

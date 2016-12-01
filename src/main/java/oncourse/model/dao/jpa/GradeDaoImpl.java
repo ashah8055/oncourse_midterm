@@ -21,9 +21,12 @@ public class GradeDaoImpl implements GradeDao{
 
 	@Override
 	public List<Grade> getGrades() {
-		 String query = "from Grade where order by id";
+		 String query = "from Grade order by id";
 
 	        return entityManager.createQuery( query, Grade.class ).getResultList();
+	        
+	        
+	        
 	}
 
 	@Override

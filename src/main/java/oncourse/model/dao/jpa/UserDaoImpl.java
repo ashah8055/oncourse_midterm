@@ -3,6 +3,7 @@ package oncourse.model.dao.jpa;
 import java.util.List;
 
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
@@ -55,5 +56,7 @@ public class UserDaoImpl implements UserDao {
     {
         return entityManager.merge( user );
     }
+
+	
 
 }
