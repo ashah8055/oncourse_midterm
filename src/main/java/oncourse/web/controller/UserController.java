@@ -19,7 +19,7 @@ public class UserController {
 	private UserDao userdao;
 	
 	
-	  @RequestMapping(value="/signup.html",method = RequestMethod.GET)
+	  @RequestMapping(value="/signup.htm5l",method = RequestMethod.GET)
 	    public String adduser(ModelMap models )
 	    {
 			  models.put("users", new User());

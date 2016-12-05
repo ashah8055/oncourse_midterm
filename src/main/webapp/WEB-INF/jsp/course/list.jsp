@@ -15,11 +15,11 @@
   <td>${course.code}</td>
   <td>${course.name}</td>
   <td style="text-align: center;">${course.units}</td>
-  <td><a href="EditcourseView.html?id=${course.id}">Edit</a>
+  <td><a href="course/EditcourseView.html?id=${course.id}">Edit</a>
 </tr>
 </c:forEach>
 <tr>
-<td><a href="AddcourseView.html">Add</a></td>
+<td><a href="course/AddcourseView.html">Add</a></td>
 </tr>
 </table>
 </body>

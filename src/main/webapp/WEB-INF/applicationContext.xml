@@ -47,10 +47,11 @@
         <security:csrf disabled="true" />
         <security:form-login login-page="/login.html" />
         <security:logout logout-success-url="/" />
-        <security:intercept-url pattern="/course/**" access="hasAnyRole('ADMIN','ADVISOR')" />
+<!-- <security:intercept-url pattern="/**" access="hasAnyRole('ADMIN','ADVISOR')" />        
+ -->        <!-- <security:intercept-url pattern="/course/**" access="hasAnyRole('ADMIN','ADVISOR')" />
         <security:intercept-url pattern="/department/**" access="hasAnyRole('ADMIN','ADVISOR')" />
         <security:intercept-url pattern="/program/**" access="hasAnyRole('ADMIN','ADVISOR')" />
-        <security:intercept-url pattern="/grade/**" access="authenticated" />
+        <security:intercept-url pattern="/grade/**" access="authenticated" /> -->
     </security:http>
 
 </beans>

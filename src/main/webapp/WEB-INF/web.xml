@@ -20,6 +20,7 @@
     <servlet-mapping>
         <servlet-name>oncourse</servlet-name>
         <url-pattern>*.html</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <listener>

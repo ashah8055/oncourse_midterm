@@ -19,7 +19,7 @@
 </tr>
 </c:forEach>
 </table>
-<a href="AddgradeView.html">ADD grade</a>
+<a href="grade/AddgradeView.html">ADD grade</a>
 
 </body>
 </html>
